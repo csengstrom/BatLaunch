@@ -1,4 +1,36 @@
+<style>
+	.sst{
+		font-family: Verdana;
+		color: #efefef;
+		font-size: 0.75em;
+		display: flex;
+	}
+	.sst-l{
+		border-top-left-radius: 0.3em;
+		border-bottom-left-radius: 0.3em;
+		background-color: #444; 
+		padding: 3px 4px 3px 6px; margin: 0;
+	}
+	.sst-r{ 
+		border-top-right-radius: 0.3em; 
+		border-bottom-right-radius: 0.3em;
+		background-color: green;
+		padding: 3px 6px 3px 4px; margin: 0;
+		text-shadow: 1px 1px 3px #666;
+	}
+</style>
+
 # BatLaunch
+
+<span class="sst">
+<span class="sst-l">BatLaunch</span>
+<span class="sst-r">v01.00.01</span>
+</span>
+<p>&nbsp;</p>
+
+
+
+
 
 BatLaunch is a windows console app written in C#. When executed, it looks for 
 the file `batlaunch.bat` in the `.bat` subfolder of `batlaunch.exe` and 
